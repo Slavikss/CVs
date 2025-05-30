@@ -1,0 +1,27 @@
+
+\documentclass[a4paper, 12pt]{article}
+\begin{document}
+\vspace*{5pt}
+\subsection {{GPT2 Pretraining from Scratch} \hfill 2024}
+\begin{zitemize}
+\item Implemented vanilla GPT2  on pure PyTorch. 
+\item Optimized with flash attention, compiling, autocasting, right model initialization, mixed precision
+\item Used gradient accumulation for 0.5M batchsize effect. Trained on FineWebEDU 10B dataset with a DDP training on 2x RTX4090
+\item Achieved 32 percent HellaSwag score on my model vs 28 percent on original model
+\end{zitemize}
+
+\vspace*{5pt}
+\
+\subsection {{XmasHack Winner \hfill 2024}}
+\begin{zitemize}
+\item Took 1st/10 place in a hackathon aimed at optimizing marketing expenses of the largest CIS TV channel via TVR Index prediction on historical tabular data
+\item Used Optuna, Catbooost, Complicated Feature Engineering with seasonality detection
+\item Achieved 23 percent MAPE at private test set. Closest to us solution had 25 percent MAPE
+\end{zitemize}
+
+
+
+
+
+
+\end{document}
