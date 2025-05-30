@@ -4,11 +4,11 @@ This repository contains up-to-date resumes for different professional tracks.
 
 ## Available Resumes
 
-- **COO Resume**  
-  [View PDF (COO)](https://github.com/Slavikss/CVs/raw/main/COO/resume.pdf)
+- **Management Resume**  
+  [View PDF](https://github.com/Slavikss/CVs/blob/master/management/resume.pdf)
 
 - **MLE Resume**  
-  [View PDF (MLE)](https://github.com/Slavikss/CVs/raw/main/MLE/resume.pdf)
+  [View PDF (MLE)](https://github.com/Slavikss/CVs/blob/master/MLE/resume.pdf)
 
 <details>
 <summary>More info & build instructions</summary>
