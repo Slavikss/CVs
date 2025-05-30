@@ -15,7 +15,7 @@ This repository contains up-to-date resumes for different professional tracks.
 
 ## Structure
 
-- `COO/` — Resume for Chief Operating Officer / Product & Project Management roles
+- `management/` — Resume for Product & Project Management roles
 - `MLE/` — Resume for Machine Learning Engineer / Data Science roles
 - `template/` — LaTeX templates and style files
 
