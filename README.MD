@@ -10,7 +10,8 @@ This repository contains up-to-date resumes for different professional tracks.
 - **MLE Resume**  
   [View PDF](https://github.com/Slavikss/CVs/blob/master/MLE/resume.pdf)
 
-<details>
+
+<!-- <details>
 <summary>More info & build instructions</summary>
 
 ## Structure
@@ -34,4 +35,4 @@ cd MLE && make
 - [Blog](http://slavikss.github.io/blog)
 
 
-</details>
+</details> -->

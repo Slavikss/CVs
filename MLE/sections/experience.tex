@@ -5,20 +5,20 @@
 %using zitemize instead of itemize will allow for tighter spacing before and after each line
 
 
-\subsection{{ML Tech Lead / Co-founder, Shperling AI}\hfill Apr 2024 -- May 2025}
-\subtext{Startup: On-premise RAG solutions for enterprise clients}
+\subsection{{MLE/ Co-founder, Shperling AI}\hfill Apr 2024 -- May 2025}
+\subtext{Built enterprise-grade RAG solutions with 95\%+ accuracy and 25s response time}
 \begin{zitemize}
-    \item Architected and deployed three on-premise Retrieval-Augmented Generation (RAG) systems for enterprise clients (internal support, Swiss consulting, fintech with 1M+ users):
+\item Led and mentored a team of 5 ML engineers in building production RAG system: guided architecture decisions for Qwen-2.5-32B-Instruct-GPTQ-Int4 (local) and GPT-4o-mini (API) integration, achieving 92.4\% context recall and 87.3\% precision on RAGAS benchmarks. Coached team on vector store optimization with Milvus and BM25 hybrid search.
+\item Established best practices and trained team on secure text2SQL development: implemented code review process focusing on SQL injection prevention and query validation, resulting in 82\% accuracy on complex queries (GROUP BY: 91.4\%, JOIN: 82.9\%) and 87.5\% Russian language support.
+\item Designed and supervised implementation of microservices architecture, coaching junior developers on:
     \begin{itemize}
-        \item For internal support, implemented RAG pipeline with Qwen-32B as the core LLM and RAGAS for automated evaluation; achieved 95\% accuracy on internal metrics and robust performance on golden set benchmarks.
-        \item All RAG deployments included strict SQL injection detection, safe database connection management, and query rate limiting for production safety.
+        \item Production-grade FastAPI development and Docker containerization
+        \item Document processing pipelines with chunking optimization (rag-pilot)
+        \item Secure database integration and query validation (text2sql)
+        \item External API integration achieving 92\% relevance (funccal)
+        \item Distributed storage systems with Milvus, MinIO, and ETCD
     \end{itemize}
-    \item Developed and productionized a text2SQL analytics pipeline for B2B retail:
-    \begin{itemize}
-        \item Used Qwen-32B for SQL generation, validated outputs on a golden set, and reduced analytics latency from 8h to 1h.
-        \item Integrated SQL injection detection and secure DB connection logic to ensure safe execution in enterprise environments.
-    \end{itemize}
-    \item Built and managed an R&D team (5 junior ML engineers): organized Scrum sprints, technical reviews, and delivered 5+ custom RAG prototypes, one of which became the commercial product core.
+\item Introduced MLOps practices through hands-on workshops: trained team on MLflow experiment tracking, W\&B monitoring, and CI/CD pipeline development. Reduced deployment issues by 40\% through systematic code review and documentation.
 \end{zitemize}
 
 
