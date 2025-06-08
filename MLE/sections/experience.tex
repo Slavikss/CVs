@@ -6,19 +6,29 @@
 
 
 \subsection{{MLE/ Co-founder, Shperling AI}\hfill Apr 2024 -- May 2025}
-\subtext{Built enterprise-grade RAG solutions with 95\%+ accuracy and 25s response time}
+\subtext{Built production RAG system with Qwen-2.5-32B achieving p99 < 30s at 100 RPS}
 \begin{zitemize}
-\item Led and mentored a team of 5 ML engineers in building production RAG system: guided architecture decisions for Qwen-2.5-32B-Instruct-GPTQ-Int4 (local) and GPT-4o-mini (API) integration, achieving 92.4\% context recall and 87.3\% precision on RAGAS benchmarks. Coached team on vector store optimization with Milvus and BM25 hybrid search.
-\item Established best practices and trained team on secure text2SQL development: implemented code review process focusing on SQL injection prevention and query validation, resulting in 82\% accuracy on complex queries (GROUP BY: 91.4\%, JOIN: 82.9\%) and 87.5\% Russian language support.
-\item Designed and supervised implementation of microservices architecture, coaching junior developers on:
+\item Engineered enterprise RAG pipeline with full test coverage:
     \begin{itemize}
-        \item Production-grade FastAPI development and Docker containerization
-        \item Document processing pipelines with chunking optimization (rag-pilot)
-        \item Secure database integration and query validation (text2sql)
-        \item External API integration achieving 92\% relevance (funccal)
-        \item Distributed storage systems with Milvus, MinIO, and ETCD
+        \item Models: Qwen-2.5-32B-Instruct (4-bit GPTQ) + GPT-4o-mini API
+        \item Vector store: Milvus 2.3 + BM25 hybrid search with asyncio
+        \item Testing: pytest-asyncio (90\% coverage), pytest-integration (85\%)
+        \item Metrics: RAGAS (92.4\% recall, 87.3\% precision), response time p99 < 30s
     \end{itemize}
-\item Introduced MLOps practices through hands-on workshops: trained team on MLflow experiment tracking, W\&B monitoring, and CI/CD pipeline development. Reduced deployment issues by 40\% through systematic code review and documentation.
+\item Built text2SQL service with enterprise security standards:
+    \begin{itemize}
+        \item Stack: Qwen-2.5-32B-Instruct (4-bit GPTQ), SQLAlchemy 2.0, pydantic v2, asyncpg
+        \item Validation: SQL-injection checks via sqlparse, ruff linter rules
+        \item Benchmarks: 82\% on Spider, 87.5\% on RuSpider dataset
+        \item Metrics: Prometheus + Grafana dashboards for query patterns
+    \end{itemize}
+\item Implemented production microservices with modern DevOps stack:
+    \begin{itemize}
+        \item API: FastAPI + pydantic + redoc + OpenAPI 3.1
+        \item Deploy: k8s + Helm + GitHub Actions
+        \item Logging: Prometheus + Grafana for metrics and logs
+        \item Dependencies: Poetry 1.7 + pre-commit hooks
+    \end{itemize}
 \end{zitemize}
 
 
