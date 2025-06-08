@@ -10,8 +10,10 @@ This repository contains up-to-date resumes for different professional tracks.
 - **MLE Resume**  
   [View PDF](https://github.com/Slavikss/CVs/blob/master/MLE/resume.pdf)
 
+- [**Management & IT diplomas**](https://github.com/Slavikss/CVs/blob/master/diplomas)
 
 <!-- <details>
+
 <summary>More info & build instructions</summary>
 
 ## Structure
